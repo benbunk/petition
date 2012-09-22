@@ -353,7 +353,7 @@ if(oh<sh)o.height(o.siblings().height());
           <li class="home"><?php print l(t('Petition Introduction'), '<front>'); ?></li>
           <li class="create">
             <?php $atts = array(); if (arg(0) == 'petition' && arg(1) == 'create') $atts = array('attributes' => array('class' => array('active'))); ?>
-            <?php print l(t('Create a petition'), 'petition/create', $atts); ?>
+            <?php print l(t('Create a petition'), 'petitions/create', $atts); ?>
           </li>
           <li class="open">
             <?php $atts = array(); if (arg(0) == 'petitions' || (arg(0) == 'petition' && arg(1) == 'detail')) $atts = array('attributes' => array('class' => array('active'))); ?>
